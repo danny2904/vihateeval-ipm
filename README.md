@@ -7,7 +7,7 @@ shared source-video context in short-video toxicity benchmarks.
 ## 📦 Contents
 
 - `data.csv` — full dataset: 16,505 comments from 93 videos, labeled
-  `Normal`, `Offensive`, or `Hate Speech` (κ = 0.67), each paired with its
+  `Normal`, `Offensive`, or `Hate Speech` (Fleiss' κ = 0.67), each paired with its
   video title, OCR thumbnail text, and thumbnail image.
 - `images_blurred/` — the 93 thumbnail images with faces and direct
   identifiers blurred for privacy. **These are the only images distributed.**
